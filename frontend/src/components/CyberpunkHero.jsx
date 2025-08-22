@@ -75,7 +75,7 @@ export const CyberpunkHero = () => {
 
       {/* Scrolling Code Background */}
       <div className="code-rain" style={{ transform: `translateY(${scrollY * 0.2}px)` }}>
-        <div className="code-line">AHE_INIT() {hash_adapt: true, quantum_resist: enabled}</div>
+        <div className="code-line">AHE_INIT() {`{hash_adapt: true, quantum_resist: enabled}`}</div>
         <div className="code-line">encrypt(data) → adaptive_hash_transform(data, key_rotation)</div>
         <div className="code-line">security_level: MILITARY_GRADE | performance: OPTIMIZED</div>
       </div>
