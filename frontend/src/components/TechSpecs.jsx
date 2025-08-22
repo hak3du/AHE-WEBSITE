@@ -127,19 +127,19 @@ export const TechSpecs = () => {
               <span className="code-comment">// Initialize AHE with adaptive parameters</span>
             </div>
             <div className="code-line">
-              <span className="code-keyword">const</span> ahe = <span className="code-function">new</span> <span className="code-class">AdaptiveHashingEncryption</span>({
+              <span className="code-keyword">const</span> ahe = <span className="code-function">new</span> <span className="code-class">AdaptiveHashingEncryption</span>({`{`}
             </div>
             <div className="code-line">
-              &nbsp;&nbsp;quantumResistant: <span className="code-boolean">true</span>,
+              {"  "}quantumResistant: <span className="code-boolean">true</span>,
             </div>
             <div className="code-line">
-              &nbsp;&nbsp;adaptationRate: <span className="code-number">0.1</span>,
+              {"  "}adaptationRate: <span className="code-number">0.1</span>,
             </div>
             <div className="code-line">
-              &nbsp;&nbsp;securityLevel: <span className="code-string">'military'</span>
+              {"  "}securityLevel: <span className="code-string">'military'</span>
             </div>
             <div className="code-line">
-              });
+              {`});`}
             </div>
             <div className="code-line">
               <br/>
