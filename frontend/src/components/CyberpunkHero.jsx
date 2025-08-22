@@ -26,7 +26,7 @@ export const CyberpunkHero = () => {
       <div className="breaking-banner">
         <div className="breaking-ticker">
           <span className="breaking-label">BREAKING</span>
-          <span className="breaking-text">Revolutionary AHE Protocol Disrupts Encryption Industry • Quantum-Resistant Technology Unveiled • </span>
+          <span className="breaking-text">Revolutionary AHE Protocol Disrupts Encryption Industry • Quantum-Resistant Technology Unveiled • Fortune 500 Companies Racing to Adopt • </span>
         </div>
       </div>
 
