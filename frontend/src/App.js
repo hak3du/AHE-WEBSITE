@@ -1,28 +1,20 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header } from "./components/Header";
-import { EncryptionHero } from "./components/EncryptionHero";
-import { EncryptionMethods } from "./components/EncryptionMethods";
-import { InteractiveDemo } from "./components/InteractiveDemo";
-import { Footer } from "./components/Footer";
+import { CyberpunkHeader } from "./components/CyberpunkHeader";
+import { CyberpunkHero } from "./components/CyberpunkHero";
+import { NewsSection } from "./components/NewsSection";
+import { TechSpecs } from "./components/TechSpecs";
 
-const Home = () => {
+const CyberpunkHome = () => {
   return (
-    <div className="dark-container">
-      <Header />
+    <div className="cyberpunk-app">
+      <CyberpunkHeader />
       <main>
-        <section id="home">
-          <EncryptionHero />
-        </section>
-        <section id="methods">
-          <EncryptionMethods />
-        </section>
-        <section id="demo">
-          <InteractiveDemo />
-        </section>
+        <CyberpunkHero />
+        <NewsSection />
+        <TechSpecs />
       </main>
-      <Footer />
     </div>
   );
 };
@@ -32,7 +24,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<CyberpunkHome />} />
         </Routes>
       </BrowserRouter>
     </div>
